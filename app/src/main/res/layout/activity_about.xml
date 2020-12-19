@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ekethi4"
+    tools:context=".about">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/one"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text=" Vision: From the ancient period, agriculture is considered as the main and the foremost culture practiced in India but often farmers don’t share the same benefits of economic growth as the economy expands . There are many factors that may affect the produce of farmers like lack of proper knowledge and techniques or due to changing conditions the demand of crops changes.
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/one"
+        android:id="@+id/two"
+        android:textColor="@color/black"
+        android:text="          E-kethi is an initiative is to help our farmers to make proper decisions with the help of our resources and to increase food market transparency and reduce food price volatility. Our proposed system takes into consideration the data related to soil, past year production and suggests which are the best profitable crops which can be cultivated in an environmental condition. As the system lists out all possible crops in , it helps the farmer in decision making of which crop to cultivate  "
+        />
+
+</RelativeLayout>
